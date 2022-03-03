@@ -1,0 +1,74 @@
+.wrapper h4 {
+    font-size: 21px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 45px;
+}
+
+.word {
+    outline: none;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.selected {
+    opacity: 0.5;
+}
+
+.word:disabled,
+.selected:disabled {
+    opacity: 1;
+    color: #000;
+}
+
+.success:disabled {
+    color: #8CC04C;
+}
+
+.failed:disabled {
+    color: #F24A41;
+}
+
+.success::before {
+    content: 'Good';
+    position: absolute;
+    bottom: 20px;
+    color: #5AB45D;
+}
+
+.failed::before {
+    content: 'Bad';
+    position: absolute;
+    bottom: 20px;
+    color: #F5928C;
+}
+
+.summary {
+    text-align: center;
+}
+
+.summary h3 {
+    font-size: 22px;
+}
+
+.summary span {
+    color: #3FAAF1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
