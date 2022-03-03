@@ -1,0 +1,16 @@
+.wrapper h2 {
+    font-size: 36px;
+}
+
+.wrapper input {
+    padding: 15px 10px;
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+.wrapper input:placeholder-shown {
+    font-weight: bold;
+    color: #000;
+}
